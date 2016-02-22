@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CBSizeConverter.framework'
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
-#  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EstimoteSDK"',                   'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/EstimoteSDK"' }
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/CBSizeConverter"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/CBSizeConverter"' }
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
