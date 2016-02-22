@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CBSizeConverter"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "A short description of CBSizeConverter."
   s.homepage     = "https://www.cleverbinder.com"
   s.author       = { "morten jeppesen" => "mkj@cleverbinder.com" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CBSizeConverter.framework'
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/CBSizeConverter"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/CBSizeConverter"' }
+  #s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/CBSizeConverter"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/CBSizeConverter"' }
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
