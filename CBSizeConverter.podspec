@@ -17,9 +17,8 @@ Pod::Spec.new do |s|
   s.author           = { "morten jeppesen" => "mkj@cleverbinder.com" }
 #  s.source           = { :git => "https://github.com/CleverBinder/CBSizeConverter.git", :tag => s.version }
   s.source           = { :git => "https://github.com/CleverBinder/CBSizeConverter.git", :branch => "master", :tag => s.version.to_s }
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-  s.source_files =  'CBSizeConverter/Headers/*.h'
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.source_files     = 'CBSizeConverter/*.h'
   s
 end
