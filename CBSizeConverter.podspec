@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CBSizeConverter"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "A short description of CBSizeConverter."
   s.homepage     = "https://www.cleverbinder.com"
   s.author       = { "morten jeppesen" => "mkj@cleverbinder.com" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
-      Copyright 2013-2015 Estimote, Inc. All rights reserved.
+      Copyright 2013-2016 CleverBinder A/S. All rights reserved.
       LICENSE
   }
 end
